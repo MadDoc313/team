@@ -1,0 +1,46 @@
+html{
+    width: 100vw;
+ }
+ ul{
+
+    position: relative;
+    top: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+} 
+.navbar{
+   position: relative;
+    background-color: rgb(27, 27, 27);
+    height: 7vh;
+    width: 100vw;
+    left: 0vw;
+    top: 0vh;
+    margin-bottom: 1.5vh;
+    box-shadow: 0px 5px 8px 5px darkgray;
+}
+.list{
+    display: inline;
+    float: right;
+}
+.list-a{
+    position: relative;
+    background-color: rgb(245, 67, 105);
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 70;
+    padding: 1vh 2vw;
+    margin: 1vh;
+    font-size: 2vh;
+    bottom: 0vh;
+}
+.redbar{
+    position: absolute;
+    background-color:  rgb(245, 67, 105);
+    top: 5vh;
+    width: 100vw;
+    height: 2vh;
+}
